@@ -13,7 +13,6 @@ function Signup() {
     <div className=' flex flex-col justify-center items-center bg-white mt-6 border-2 border-black rounded-xl shadow-2xl w-3/4 m-auto md:w-1/4  p-3'>
       <div>
         <h1 className='text-center text-3xl font-bold p-4'>Sign Up</h1>
-        <p className='text-center text-slate-500'>Log in with your credentials to proceed.</p>
       </div>
 
       <div className='p-6'>
