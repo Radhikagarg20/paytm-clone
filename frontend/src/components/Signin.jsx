@@ -11,7 +11,6 @@ function Signin() {
     <div className=' flex flex-col justify-center items-center bg-white mt-22 border-2 border-slate-500 rounded-xl shadow-xl w-3/4 m-auto md:w-1/4  p-3'>
       <div>
         <h1 className='text-center text-3xl font-bold p-4'>Sign In</h1>
-        <p className='text-center text-slate-500'>Enter your username and password to sign in</p>
       </div>
       
       <div className='p-6'>
