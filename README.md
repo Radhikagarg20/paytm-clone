@@ -9,17 +9,17 @@ This is a Paytm clone project with separate setups for frontend and backend. Fol
 ## Backend  
 📂 backend  
 ├── 📂 db  
-│   └── db.js  
+│   └── db.js          # Database configuration and connections  
 ├── 📂 middlewares  
-│   └── middleware.js  
+│   └── middleware.js  # Custom middlewares for API handling  
 ├── 📂 routes  
-│   ├── account.js  
-│   ├── index.js  
-│   └── user.js  
-├── config.js  
-├── index.js  
-├── package-lock.json  
-└── package.json  
+│   ├── account.js     # Account-related routes  
+│   ├── index.js       # Root routing logic  
+│   └── user.js        # User management routes  
+├── config.js          # Environment-specific configurations  
+├── index.js           # Entry point of the backend server  
+├── package-lock.json  # NPM dependency lock file  
+└── package.json       # Backend dependencies and scripts
 
 ## Frontend  
 📂 frontend  
