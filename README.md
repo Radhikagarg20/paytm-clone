@@ -7,6 +7,8 @@ This is a Paytm clone project with separate setups for frontend and backend. Fol
 # Project Folder Structure  
 
 ## Backend  
+A server-side application structure that handles API requests, authentication, database interactions, and middleware logic.
+
 📂 backend  
 ├── 📂 db  
 │   └── db.js          # Database configuration and connections  
@@ -21,47 +23,53 @@ This is a Paytm clone project with separate setups for frontend and backend. Fol
 ├── package-lock.json  # NPM dependency lock file  
 └── package.json       # Backend dependencies and scripts
 
+
 ## Frontend  
+A responsive and dynamic user interface built using modern frontend technologies.
+
 📂 frontend  
 ├── 📂 public  
-│   └── vite.svg  
+│   └── vite.svg          # Static assets like icons and logos  
 ├── 📂 src  
 │   ├── 📂 assets  
-│   │   ├── bg-1.png  
-│   │   ├── bg-2.jpeg  
-│   │   └── bg-svg.svg  
+│   │   ├── bg-1.png      # Background image 1  
+│   │   ├── bg-2.jpeg     # Background image 2  
+│   │   └── bg-svg.svg    # SVG graphic asset  
 │   ├── 📂 components  
-│   │   ├── Avatar.jsx  
-│   │   ├── Balance.jsx  
-│   │   ├── Header.jsx  
-│   │   ├── Modal.jsx  
-│   │   ├── Signin.jsx  
-│   │   ├── Signup.jsx  
-│   │   └── Users.jsx  
+│   │   ├── Avatar.jsx    # Avatar component  
+│   │   ├── Balance.jsx   # Displays user balance  
+│   │   ├── Header.jsx    # Header component  
+│   │   ├── Modal.jsx     # Reusable modal component  
+│   │   ├── Signin.jsx    # Sign-in form logic  
+│   │   ├── Signup.jsx    # Sign-up form logic  
+│   │   └── Users.jsx     # User listing component  
 │   ├── 📂 pages  
-│   │   ├── Dashboard.jsx  
-│   │   ├── Landing.css  
-│   │   ├── Landing.jsx  
-│   │   ├── SendMoney.jsx  
-│   │   ├── SigninPage.jsx  
-│   │   └── SignupPage.jsx  
-│   ├── App.css  
-│   ├── App.jsx  
-│   ├── index.css  
-│   └── main.jsx  
-├── index.html  
-├── package-lock.json  
-├── package.json  
-├── postcss.config.js  
-├── tailwind.config.js  
-└── vite.config.js  
+│   │   ├── Dashboard.jsx # User dashboard  
+│   │   ├── Landing.css   # Styling for landing page  
+│   │   ├── Landing.jsx   # Landing page layout  
+│   │   ├── SendMoney.jsx # Money transfer logic  
+│   │   ├── SigninPage.jsx# Sign-in page container  
+│   │   └── SignupPage.jsx# Sign-up page container  
+│   ├── App.css           # Global styles  
+│   ├── App.jsx           # Main React app component  
+│   ├── index.css         # Root styles  
+│   └── main.jsx          # Frontend entry point  
+├── index.html            # Root HTML template  
+├── package-lock.json     # NPM dependency lock file  
+├── package.json          # Frontend dependencies and scripts  
+├── postcss.config.js     # PostCSS configuration  
+├── tailwind.config.js    # TailwindCSS configuration  
+└── vite.config.js        # Vite build configuration   
+
 
 ## Root  
+Contains high-level project configuration files and folders.
+
 📂 Root  
-├── 📂 backend  
-├── 📂 frontend  
-├── Dockerfile  
-└── README.md  
+├── 📂 backend            # Backend application  
+├── 📂 frontend           # Frontend application  
+├── Dockerfile            # Docker container setup  
+└── README.md             # Project documentation 
 
 
 ## Frontend Setup  
