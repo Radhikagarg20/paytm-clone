@@ -10,24 +10,17 @@ A server-side application structure that handles API requests, authentication, d
 
 📂 backend  
 ├── 📂 db  
-│   └── db.js          # Database configuration and connections  
-
+│   └── db.js               # Database configuration and connections  
 ├── 📂 middlewares  
-│   └── middleware.js  # Custom middlewares for API handling  
-
+│   └── middleware.js       # Custom middlewares for API handling  
 ├── 📂 routes  
-│   ├── account.js     # Account-related routes  
-│   ├── index.js       # Root routing logic  
-│   └── user.js        # User management routes  
-
-├── config.js          # Environment-specific configurations  
-
-├── index.js           # Entry point of the backend server  
-
-├── package-lock.json  # NPM dependency lock file  
-
-└── package.json       # Backend dependencies and scripts  
-
+│   ├── account.js          # Account-related routes  
+│   ├── index.js            # Root routing logic  
+│   └── user.js             # User management routes  
+├── config.js               # Environment-specific configurations  
+├── index.js                # Entry point of the backend server  
+├── package-lock.json       # NPM dependency lock file  
+└── package.json            # Backend dependencies and scripts
 
 
 ## Frontend  
@@ -35,47 +28,47 @@ A responsive and dynamic user interface built using modern frontend technologies
 
 📂 frontend  
 ├── 📂 public  
-│   └── vite.svg          # Static assets like icons and logos  
+│   └── vite.svg               # Static assets like icons and logos  
 ├── 📂 src  
 │   ├── 📂 assets  
-│   │   ├── bg-1.png      # Background image 1  
-│   │   ├── bg-2.jpeg     # Background image 2  
-│   │   └── bg-svg.svg    # SVG graphic asset  
+│   │   ├── bg-1.png           # Bg image 1  
+│   │   ├── bg-2.jpeg          # Bg image 2  
+│   │   └── bg-svg.svg         # SVG graphic asset  
 │   ├── 📂 components  
-│   │   ├── Avatar.jsx    # Avatar component  
-│   │   ├── Balance.jsx   # Displays user balance  
-│   │   ├── Header.jsx    # Header component  
-│   │   ├── Modal.jsx     # Reusable modal component  
-│   │   ├── Signin.jsx    # Sign-in form logic  
-│   │   ├── Signup.jsx    # Sign-up form logic  
-│   │   └── Users.jsx     # User listing component  
+│   │   ├── Avatar.jsx         # Avatar component  
+│   │   ├── Balance.jsx        # Displays user balance  
+│   │   ├── Header.jsx         # Header component  
+│   │   ├── Modal.jsx          # Reusable modal component  
+│   │   ├── Signin.jsx         # Sign-in form logic  
+│   │   ├── Signup.jsx         # Sign-up form logic  
+│   │   └── Users.jsx          # User listing component  
 │   ├── 📂 pages  
-│   │   ├── Dashboard.jsx # User dashboard  
-│   │   ├── Landing.css   # Styling for landing page  
-│   │   ├── Landing.jsx   # Landing page layout  
-│   │   ├── SendMoney.jsx # Money transfer logic  
-│   │   ├── SigninPage.jsx# Sign-in page container  
-│   │   └── SignupPage.jsx# Sign-up page container  
-│   ├── App.css           # Global styles  
-│   ├── App.jsx           # Main React app component  
-│   ├── index.css         # Root styles  
-│   └── main.jsx          # Frontend entry point  
-├── index.html            # Root HTML template  
-├── package-lock.json     # NPM dependency lock file  
-├── package.json          # Frontend dependencies and scripts  
-├── postcss.config.js     # PostCSS configuration  
-├── tailwind.config.js    # TailwindCSS configuration  
-└── vite.config.js        # Vite build configuration   
+│   │   ├── Dashboard.jsx      # User dashboard  
+│   │   ├── Landing.css        # Styling for landing page  
+│   │   ├── Landing.jsx        # Landing page layout  
+│   │   ├── SendMoney.jsx      # Money transfer logic  
+│   │   ├── SigninPage.jsx     # Sign-in page container  
+│   │   └── SignupPage.jsx     # Sign-up page container  
+│   ├── App.css                # Global styles  
+│   ├── App.jsx                # Main React app component  
+│   ├── index.css              # Root styles  
+│   └── main.jsx               # Frontend entry point  
+├── index.html                 # Root HTML template  
+├── package-lock.json          # NPM dependency lock file  
+├── package.json               # Frontend dependencies and scripts  
+├── postcss.config.js          # PostCSS configuration  
+├── tailwind.config.js         # TailwindCSS configuration  
+└── vite.config.js             # Vite build configuration   
 
 
 ## Root  
 Contains high-level project configuration files and folders.
 
 📂 Root  
-├── 📂 backend            # Backend application  
-├── 📂 frontend           # Frontend application  
-├── Dockerfile            # Docker container setup  
-└── README.md             # Project documentation 
+├── 📂 backend                 # Backend application  
+├── 📂 frontend                # Frontend application  
+├── Dockerfile                 # Docker container setup  
+└── README.md                  # Project documentation 
 
 
 ## Frontend Setup  
