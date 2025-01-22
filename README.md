@@ -7,65 +7,61 @@ This is a Paytm clone project with separate setups for frontend and backend. Fol
 # Project Folder Structure  
 
 ## Backend  
-
-📂 backend
-├── 📂 db
-│ └── db.js
-├── 📂 middlewares
-│ └── middleware.js
-├── 📂 routes
-│ ├── account.js
-│ ├── index.js
-│ └── user.js
-├── config.js
-├── index.js
-├── package-lock.json
-└── package.json
-
+📂 backend  
+├── 📂 db  
+│   └── db.js  
+├── 📂 middlewares  
+│   └── middleware.js  
+├── 📂 routes  
+│   ├── account.js  
+│   ├── index.js  
+│   └── user.js  
+├── config.js  
+├── index.js  
+├── package-lock.json  
+└── package.json  
 
 ## Frontend  
-📂 frontend
-├── 📂 public
-│ └── vite.svg
-├── 📂 src
-│ ├── 📂 assets
-│ │ ├── bg-1.png
-│ │ ├── bg-2.jpeg
-│ │ └── bg-svg.svg
-│ ├── 📂 components
-│ │ ├── Avatar.jsx
-│ │ ├── Balance.jsx
-│ │ ├── Header.jsx
-│ │ ├── Modal.jsx
-│ │ ├── Signin.jsx
-│ │ ├── Signup.jsx
-│ │ └── Users.jsx
-│ ├── 📂 pages
-│ │ ├── Dashboard.jsx
-│ │ ├── Landing.css
-│ │ ├── Landing.jsx
-│ │ ├── SendMoney.jsx
-│ │ ├── SigninPage.jsx
-│ │ └── SignupPage.jsx
-│ ├── App.css
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-├── index.html
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
-
+📂 frontend  
+├── 📂 public  
+│   └── vite.svg  
+├── 📂 src  
+│   ├── 📂 assets  
+│   │   ├── bg-1.png  
+│   │   ├── bg-2.jpeg  
+│   │   └── bg-svg.svg  
+│   ├── 📂 components  
+│   │   ├── Avatar.jsx  
+│   │   ├── Balance.jsx  
+│   │   ├── Header.jsx  
+│   │   ├── Modal.jsx  
+│   │   ├── Signin.jsx  
+│   │   ├── Signup.jsx  
+│   │   └── Users.jsx  
+│   ├── 📂 pages  
+│   │   ├── Dashboard.jsx  
+│   │   ├── Landing.css  
+│   │   ├── Landing.jsx  
+│   │   ├── SendMoney.jsx  
+│   │   ├── SigninPage.jsx  
+│   │   └── SignupPage.jsx  
+│   ├── App.css  
+│   ├── App.jsx  
+│   ├── index.css  
+│   └── main.jsx  
+├── index.html  
+├── package-lock.json  
+├── package.json  
+├── postcss.config.js  
+├── tailwind.config.js  
+└── vite.config.js  
 
 ## Root  
-📂 Root
-├── 📂 backend
-├── 📂 frontend
-├── Dockerfile
-└── README.md
-
+📂 Root  
+├── 📂 backend  
+├── 📂 frontend  
+├── Dockerfile  
+└── README.md  
 
 
 ## Frontend Setup  
